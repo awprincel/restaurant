@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodtuck</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <script src = '/script/app.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/219b80e1d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="corp_logo"><span class="corp_color">Food</span>tuck</h1>
+
+        <div class="navigation_wrapper">
+          <ul class="header__nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pages</a></li>
+            <li>
+              <a href="#">About <img src="/images/Project Status.svg" /> </a>
+            </li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <div class="search_bar">
+            <div class="search_input">
+              <input class="search" type="text" placeholder="Search..." />
+              <a href="#"><img src="../images/icon_search.png" /></a>
+            </div>
+
+            <div class="icon_bag">
+              <a href=""><img src="../images/icon_bag.png" /></a>
+            </div>
+          </div>
+          <button class="burger-menu-toggle" aria-label="Открыть меню">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="burger-menu-overlay"></div>
+            <div class="burger-menu">
+              <button class="burger-menu-close">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="burger-nav-list">
+                <li><a ref="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+
+        </div>
+      </header>
+
+      <div class="main_info">
+        <div class="block_text">
+          <p class="title">
+            <span class="corp_color">Its Quick & Amusing!</span>
+          </p>
+
+          <h2><span class="corp_color">Th</span>e Art of speed food Quality</h2>
+
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+            Varius sed pharetra dictum neque massa congue
+          </p>
+
+          <button class="btn_menu">See Menu</button>
+
+          <div class="social">
+            <div class="link_social">
+              <img class="line" src="/images/line.svg" />
+
+              <a class="icon_social" href="#"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a class="icon_social" href="#"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a class="icon_social" href="#"
+                ><i class="fa-brands fa-pinterest-p"></i
+              ></a>
+
+              <img class="line" src="/images/line.svg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="main_img">
+          <img src="/images/Image.svg" />
+        </div>
+      </div>
+
+      <div class="back_img"></div>
+
+      <main>
+        <div class="block_about_us">
+          <div class="about_us_block_text">
+            <p class="title"><span class="corp_color">About us</span></p>
+            <h2 class="about_us_title">
+              <span class="corp_color">We</span>Create the best foody product
+            </h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              diam pellentesque bibendum non dui volutpat fringilla bibendum.
+              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
+              Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit
+              eu velit in consequat.
+            </p>
+
+            <div class="about_us_advantages">
+              <img src="/images/check.png" />
+              <p>Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
+            </div>
+
+            <div class="about_us_advantages">
+              <img src="/images/check.png" />
+              <p class="advantages">
+                Quisque diam pellentesque bibendum non dui volutpat fringilla
+              </p>
+            </div>
+
+            <div class="about_us_advantages">
+              <img src="/images/check.png" />
+              <p class="advantages">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              </p>
+            </div>
+
+            <button class="btn_menu">Read more</button>
+          </div>
+
+          <div class="about_us_block_img">
+            <div class="first_block_img">
+              <img
+                class="firs_img_food"
+                src="/images/imgFood/food1.png"
+                alt="img_food"
+              />
+            </div>
+
+            <div class="second_block_img">
+              <img
+                class="second_img_food"
+                src="/images/imgFood/food2.png"
+                alt="img_food"
+              />
+              <img
+                class="third_img_food"
+                src="/images/imgFood/food3.png"
+                alt="img_food"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="block_food_category">
+          <p class="title"><span class="corp_color">Food Category</span></p>
+          <div class="food_category_text">
+            <h2 class="about_us_title">
+              <span class="corp_color">Ch</span>oose Food Iteam
+            </h2>
+          </div>
+
+          <div class="food-slider">
+            <button class="slider-btn prev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="food-slider-container">
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory1.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCard_sale.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCard_sale.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCard_sale.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCard_sale.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCard_sale.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCard_sale.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCard_sale.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCard_sale.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory3.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory4.png" alt="photoFood" />
+              </div>
+
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory1.png" alt="photoFood" />
+              </div>
+              <div class="food-slide">
+                <img src="/images/imgFood/foodCategory2.png" alt="photoFood" />
+              </div>
+            </div>
+            
+            <button class="slider-btn next">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <img class="bg_parsley" src="/images/parsley.png" />
+        </div>
+
+        <div class="block_why_chose_us">
+          <div class="why_block_img">
+            <div class="block_img_top">
+              <img src="/images/food_img/1.png" alt="food_img" />
+              <img src="/images/food_img/2.png" alt="food_img" />
+            </div>
+            <div class="block_img_bot">
+              <img src="/images/food_img/3.png" alt="food_img" />
+              <img src="/images/food_img/4.png" alt="food_img" />
+              <div class="block_img_bot_column">
+                <img src="/images/food_img/5.png" alt="food_img" />
+                <img src="/images/food_img/6.png" alt="food_img" />
+              </div>
+            </div>
+          </div>
+          <div class="why_right_section">
+            <div class="why_block_text">
+              <p class="title"><span class="corp_color">Why Choose us</span></p>
+              <h2>
+                <span class="corp_color">Ex</span>ta ordinary taste And
+                Experienced
+              </h2>
+              <p class="advantages">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                diam pellentesque bibendum non dui volutpat fringilla bibendum.
+                Urna, elit augue urna, vitae feugiat pretium donec id elementum.
+                Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus
+                sit eu velit in consequat.
+              </p>
+            </div>
+            <div class="why_section_icon">
+              <div class="block_icon_why">
+                <div class="why_card">
+                  <div class="why_card_img">
+                    <img
+                      src="/images/icon_food/Hamburger.png"
+                      alt="hamburger"
+                    />
+                  </div>
+                  <p class="why_advantages">Fast Food</p>
+                </div>
+
+                <div class="why_card">
+                  <div class="why_card_img">
+                    <img src="/images/icon_food/Cookie.png" alt="cookie" />
+                  </div>
+                  <p class="why_advantages">Lunch</p>
+                </div>
+
+                <div class="why_card">
+                  <div class="why_card_img">
+                    <img src="/images/icon_food/Wine.png" alt="wine" />
+                  </div>
+                  <p class="why_advantages">Dinner</p>
+                </div>
+              </div>
+            </div>
+            <div class="why_img_ex">
+              <img src="/images/icon_food/img_30_ex.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        </div> 
+        <!-- закрый контейнер -->
+
+        <div class="block_statistics">
+          <div class="stat_icons">
+            <div class="card_icon">
+              <img src="/images/clienst_stat/1.png" alt="icon_stat" />
+              <p>Professional Chefs</p>
+              <span>420</span>
+            </div>
+
+            <div class="card_icon">
+              <img src="/images/clienst_stat/2.png" alt="icon_stat" />
+              <p>Items Of Food</p>
+              <span>320</span>
+            </div>
+
+            <div class="card_icon">
+              <img src="/images/clienst_stat/3.png" alt="icon_stat" />
+              <p>Years Of Experienced</p>
+              <span>30+</span>
+            </div>
+
+            <div class="card_icon">
+              <img src="/images/clienst_stat/4.png" alt="icon_stat" />
+              <p>Happy Customers</p>
+              <span>220</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="block_our_menu">
+            <div class="menu_text">
+              <p class="title"><span class="corp_color">Choose & pick</span></p>
+              <h2><span class="corp_color">Fr</span>om Our Menu</h2>
+            </div>
+            <div class="menu_nav">
+              <a href="#"><span class="corp_color">Breakfast</span></a>
+              <a href="#">Lunch</a>
+              <a href="#">Dinner</a>
+              <a href="#">Dessert</a>
+              <a href="#">Drink</a>
+              <a href="#">Snack</a>
+              <a href="#">Suops</a>
+            </div>
+            <div class="menu_info_block">
+              <div class="menu_all_img">
+                <img src="/images/menu_food/menu_food.png" alt="food_card_img" />
+              </div>
+              <div class="info_menu_dishes">
+                <div class="info_menu_first_block">
+                  <div class="dishes_card">
+                    <img src="/images/dishes_food/1.png" alt="food_card_img" />
+                    <div class="dishes_card_text">
+                      <h3>Lettuce Leaf</h3>
+                      <p>Lacus nisi, et ac dapibus velit in consequat.</p>
+                      <span class="corp_color">12.5$</span>
+                    </div>
+                  </div>
+
+                  <div class="dishes_card">
+                    <img src="/images/dishes_food/2.png" alt="food_card_img" />
+                    <div class="dishes_card_text">
+                      <h3>Lettuce Leaf</h3>
+                      <p>Lacus nisi, et ac dapibus velit in consequat.</p>
+                      <span class="corp_color">14.5$</span>
+                    </div>
+                  </div>
+                  <div class="dishes_card">
+                    <img src="/images/dishes_food/3.png" alt="food_card_img" />
+                    <div class="dishes_card_text">
+                      <h3>Lettuce Leaf</h3>
+                      <p>Lacus nisi, et ac dapibus velit in consequat.</p>
+                      <span class="corp_color">12.5$</span>
+                    </div>
+                  </div>
+                  <div class="dishes_card">
+                    <img src="/images/dishes_food/4.png" alt="food_card_img" />
+                    <div class="dishes_card_text">
+                      <h3>Lettuce Leaf</h3>
+                      <p>Lacus nisi, et ac dapibus velit in consequat.</p>
+                      <span class="corp_color">12.5$</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="info_menu_second_block">
+                  <div class="dishes_card">
+                    <img src="/images/dishes_food/5.png" alt="food_card_img" />
+                    <div class="dishes_card_text">
+                      <h3>Lettuce Leaf</h3>
+                      <p>Lacus nisi, et ac dapibus velit in consequat.</p>
+                      <span class="corp_color">12.5$</span>
+                    </div>
+                  </div>
+                  <div class="dishes_card">
+                    <img src="/images/dishes_food/6.png" alt="food_card_img" />
+                    <div class="dishes_card_text">
+                      <h3>Lettuce Leaf</h3>
+                      <p>Lacus nisi, et ac dapibus velit in consequat.</p>
+                      <span class="corp_color">14.5$</span>
+                    </div>
+                  </div>
+                  <div class="dishes_card">
+                    <img src="/images/dishes_food/7.png" alt="food_card_img" />
+                    <div class="dishes_card_text">
+                      <h3>Lettuce Leaf</h3>
+                      <p>Lacus nisi, et ac dapibus velit in consequat.</p>
+                      <span class="corp_color">12.5$</span>
+                    </div>
+                  </div>
+                  <div class="dishes_card">
+                    <img src="/images/dishes_food/8.png" alt="food_card_img" />
+                    <div class="dishes_card_text">
+                      <h3>Lettuce Leaf</h3>
+                      <p>Lacus nisi, et ac dapibus velit in consequat.</p>
+                      <span class="corp_color">12.5$</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="block_meet_our_cheef">
+            <p class="title"><span class="corp_color">Food Category</span></p>
+            <div class="chief_team_text">
+              <h2 class="about_us_title">
+                <span class="corp_color">Ch</span>oose Food Iteam
+              </h2>
+            </div>
+
+            <div class="food_team">
+              <img src="/images/meet_chef/1.png" alt="photoFood" />
+              <img src="/images/meet_chef/2.png" alt="photoFood" />
+              <img src="/images/meet_chef/3.png" alt="photoFood" />
+              <img src="/images/meet_chef/4.png" alt="photoFood" />
+            </div>
+            <img
+              class="team_bg_parsley"
+              src="/images/meet_chef/parsey_bg.png"
+            />
+            <div class="food_team_btn">
+              <button>See More</button>
+            </div>
+          </div>
+
+          <div class="block_feedback">
+            <div class="feedback_text">
+              <p class="title"><span class="corp_color">Testimonials</span></p>
+              <h2>What our client are saying</h2>
+            </div>
+            <div class="block_feedback_main_info">
+              <div class="feedback_avatar">
+                <img src="/images/feedback/avatar.png" alt="img_avatar" />
+              </div>
+              <img
+                class="feedback_quotes"
+                src="/images/feedback/Quotes.png"
+                alt="quotes_img"
+              />
+              <p class="feedback">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                diam pellentesque bibendum non dui volutpat fringilla bibendum.
+                Urna, elit augue urna, vitae feugiat pretium donec id elementum.
+                Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus
+                sit eu velit in consequat.
+              </p>
+              <img src="/images/feedback/star.png" alt="star_img" />
+              <h3>Alamin Hasan</h3>
+              <p class="feed_back_text_role">Food Specialist</p>
+              <div class="feedback_bg_flow">
+                <img src="/images/feedback/flow.png" alt="bg_flower_img" />
+              </div>
+            </div>
+            <div class="dot_img_block">
+              <img class="img_dot" src="/images/feedback/Dot.png" alt="btn_menu" />
+            </div>
+          </div>
+        </div>
+        <!-- закрый контейнер -->
+
+        <div class="block_restaurant_active_process">
+          <div class="container_for_active">
+            <div class="active_main_text">
+              <p class="title">
+                <span class="corp_color">Restaurant Active Process</span>
+              </p>
+              <h2>
+                <span class="corp_color">We</span>Document Every Food Bean
+                Process untile it is saved
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                diam pellentesque <br />bibendum non dui volutpat fringilla
+                bibendum. Urna, elit augue urna,
+              </p>
+              <div class="active_all_btn">
+                <div class="active_btn1">
+                  <button>Read More</button>
+                </div>
+                <div class="active_btn2">
+                  <a href="#">
+                    <img src="/images/block_active/Play.png" alt="play_video" />
+                    <a href="#">Play Video</a>
+                  </a>
+                </div>
+              </div>
+              <div class="active_bg_img"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="block_blog">
+            <p class="title"><span class="corp_color">Blog Post</span></p>
+            <h2><span class="corp_color">La</span>test News & Blog</h2>
+            <div class="blog_cards">
+              <div class="blog_card">
+                <div class="blo_card_img">
+                  <img src="/images/blog_img/burger.png" alt="burder_img" />
+                </div>
+                <div class="blog_card_text">
+                  <span class="tranc_text_blog">10 February 2022 </span>
+                  <h3 class="title_card_text">
+                    Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis
+                  </h3>
+                </div>
+                <div class="blog_card_social">
+                  <div class="social_text_title">
+                    <h4 class="card_text_social"><a href="#">Learn More</a></h4>
+                  </div>
+                  <div class="social_img">
+                    <a href="#"
+                      ><img src="/images/blog_img/ThumbsUp.png" alt="img_like"
+                    /></a>
+                    <a href="#"
+                      ><img src="/images/blog_img/ChatDots.png" alt="img_comment"
+                    /></a>
+                    <a href="#"
+                      ><img src="/images/blog_img/ShareNetwork.png" alt="img_more"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog_card">
+                <div class="blo_card_img">
+                  <img src="/images/blog_img/pizza.png" alt="img_pizza" />
+                </div>
+                <div class="blog_card_text">
+                  <span class="tranc_text_blog">10 February 2022 </span>
+                  <h3 class="title_card_text">
+                    Morbi Sodales Tellus Elit, In Blandit Risus Suscipit A
+                  </h3>
+                </div>
+                <div class="blog_card_social">
+                  <div class="social_text_title">
+                    <h4 class="card_text_social"><a href="#">Learn More</a></h4>
+                  </div>
+                  <div class="social_img">
+                    <a href="#"
+                      ><img src="/images/blog_img/ThumbsUp.png" alt="img_like"
+                    /></a>
+                    <a href="#"
+                      ><img src="/images/blog_img/ChatDots.png" alt="img_comment"
+                    /></a>
+                    <a href="#"
+                      ><img src="/images/blog_img/ShareNetwork.png" alt="img_more"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog_card">
+                <div class="blo_card_img">
+                  <img src="/images/blog_img/taco.png" alt="img_taco" />
+                </div>
+                <div class="blog_card_text">
+                  <span class="tranc_text_blog">10 February 2022 </span>
+                  <h3 class="title_card_text">
+                    Curabitur rutrum velit ac congue malesuada
+                  </h3>
+                </div>
+                <div class="blog_card_social">
+                  <div class="social_text_title">
+                    <h4 class="card_text_social"><a href="#">Learn More</a></h4>
+                  </div>
+                  <div class="social_img">
+                    <a href="#"
+                      ><img src="/images/blog_img/ThumbsUp.png" alt="img_like"
+                    /></a>
+                    <a href="#"
+                      ><img src="/images/blog_img/ChatDots.png" alt="img_comment"
+                    /></a>
+                    <a href="#"
+                      ><img src="/images/blog_img/ShareNetwork.png" alt="img_more"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog_support">
+          <div class="contianer_sup">
+            <div class="support_text">
+              <h2>
+                <span class="corp_color">St</span>ill You Need Our Support ?
+              </h2>
+              <p>
+                Don’t wait make a smart & logical quote here. Its pretty easy.
+              </p>
+            </div>
+            <div class="support_input_and_btn">
+              <form class="support_form_input_and_btn" action="">
+                <input
+                  class="support_input"
+                  type="text"
+                  placeholder="Enter Your Email"
+                />
+                <button class="support_btn">Subscribe Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="main_container_footer">
+            <div class="firs_section_footer">
+              <div class="first_about_us_footer">
+                <div class="about_us_text">
+                  <h3 class="title_footer">About Us.</h3>
+                  <p>
+                    orporate clients and leisure travelers has been relying on
+                    Groundlink for dependab safe, and professional chauffeured
+                    car service in major cities across World.
+                  </p>
+                </div>
+
+                <div class="about_us_img_and_text">
+                  <div class="about_us_img">
+                    <img src="/images/footer_img/Watch.png" alt="img_watch" />
+                  </div>
+                  <div class="about_us_img_text">
+                    <h4 class="sub_title_footer">Opening Houres</h4>
+                    <p>Mon - Sat(8.00 - 6.00)</p>
+                    <p>Sunday - Closed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="first_links">
+              <h3 class="title_footer">Useful Links</h3>
+              <a href="#">About</a>
+              <a href="#">News</a>
+              <a href="#">Partners</a>
+              <a href="#">Team</a>
+              <a href="#">Menu</a>
+              <a href="#">Contacts</a>
+            </div>
+
+            <div class="second_section_footer">
+              <div class="second_help_footer">
+                <h3 class="title_footer">Help?</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Term & conditions</a>
+                <a href="#">Reporting</a>
+                <a href="#">Documentation</a>
+                <a href="#">Support Policy</a>
+                <a href="#">Privacy</a>
+              </div>
+            </div>
+
+            <div class="second_recent_footer">
+              <h3 class="title_footer">Recent Post</h3>
+              <div class="recent_cards_footer">
+                <div class="recent_card_footer">
+                  <div class="recenter_card_img">
+                    <img src="/images/footer_img/1.png" alt="food_card_img" />
+                  </div>
+                  <div class="recent_card_text">
+                    <p class="subtitle_recent">20 Feb 2022</p>
+                    <h3>Keep Your Business</h3>
+                  </div>
+                </div>
+
+                <div class="recent_card_footer_all">
+                  <div class="recent_card_footer">
+                    <div class="recenter_card_img">
+                      <img src="/images/footer_img/2.png" alt="food_card_img" />
+                    </div>
+                    <div class="recent_card_text">
+                      <p class="subtitle_recent">20 Feb 2022</p>
+                      <h3>Keep Your Business</h3>
+                    </div>
+                  </div>
+
+                  <div class="recent_card_footer">
+                    <div class="recenter_card_img">
+                      <img src="/images/footer_img/3.png" alt="food_card_img" />
+                    </div>
+                    <div class="recent_card_text">
+                      <p class="subtitle_recent">20 Feb 2022</p>
+                      <h3>Keep Your Business</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="main_footer">
+          <div class="container">
+            <div class="footer_content">
+              <div class="footer_main_text">
+                <h3>Copyright © 2022 by Ayeman. All Rights Reserved.</h3>
+              </div>
+              <div class="footer_main_icons">
+                <a href="#" target="_blank"><img src="/images/main_footer/facebook.png" alt="social_icon" /></a>
+                <a href="#" target="_blank"><img src="/images/main_footer/twitter.png" alt="social_icon" /></a>
+                <a href="#" target="_blank"><img src="/images/main_footer/instagram.png" alt="social_icon" /></a>
+                <a href="#" target="_blank"><img src="/images/main_footer/yt.png" alt="social_icon" /></a>
+                <a href="#" target="_blank"><img src="/images/main_footer/pinterest.png" alt="social_icon" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/style/shop.css" />
+    <script src="/script/app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="container">
+        <div class="content_nav">
+          <div class="logo">
+            <h1><span class="corp_color">Food</span>tuck</h1>
+          </div>
+          <div class="nav">
+            <ul>
+              <li><a class="active" href="./index.html">Home</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="./shop.html">Shop </a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="nav_icon">
+            <img src="/img_shop/MagnifyingGlass.png" alt="img_search" />
+            <img src="/img_shop/User.png" alt="img_profile" />
+            <img src="/img_shop/Tote.png" alt="img_bag" />
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="main_top">
+        <div class="main_top_bg_img">
+          <div class="main_top_text">
+            <h2 class="main_top_text">Our Shop</h2>
+            <p>Home > <span class="corp_color">Shop</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_info">
+        <div class="container">
+          <div class="main_content">
+            <div class="main_sort">
+              <div class="form_first">
+                <form>
+                  <label for="Newsest-select">Sort By :</label>
+                  <select name="Newsest" id="Newsest-select">
+                    <option value="">Newsest</option>
+                    <option value="cheapest">from the cheapest</option>
+                    <option value="expensive">from the most expensive</option>
+                  </select>
+                </form>
+              </div>
+
+              <div class="form_second">
+                <form>
+                  <label for="Show-select">Show :</label>
+                  <select name="Show" id="Show-select">
+                    <option value="">Default</option>
+                    <option value="Burger">Burger</option>
+                    <option value="Sandwich">Sandwich</option>
+                    <option value="Drinks">Drinks</option>
+                    <option value="Pizza">Pizza</option>
+                  </select>
+                </form>
+              </div>
+            </div>
+
+            <div class="main_info_cards_sort">
+              <div class="main_cards">
+                <div class="main_card" data-category="drink">
+                  <img src="/img_shop/main_card_img1.png" alt="food_card_img" />
+                  <p>Fresh Lime</p>
+                  <span class="actual_price">$38.00</span>
+                  <span class="old_price">$45.00</span>
+                </div>
+
+                <div class="main_card" data-category="muffin">
+                  <img src="/img_shop/main_card_img2.png" alt="food_card_img" />
+                  <p>Chocolate Muffin</p>
+                  <span class="actual_price">$28.00</span>
+                </div>
+
+                <div class="main_card" data-category="burger">
+                  <img src="/img_shop/main_card_img3.png" alt="food_card_img" />
+                  <p>Burger</p>
+                  <span class="actual_price">$21.00</span>
+                  <span class="old_price">$45.00</span>
+                </div>
+
+                <div class="main_card" data-category="burger">
+                  <img src="/img_shop/main_card_img4.png" alt="food_card_img" />
+                  <p>Country Burger</p>
+                  <span class="actual_price">$45.00</span>
+                </div>
+
+                <div class="main_card" data-category="drink">
+                  <img src="/img_shop/main_card_img5.png" alt="food_card_img" />
+                  <p>Drink</p>
+                  <span class="actual_price">$28.00</span>
+                  <span class="old_price">$45.00</span>
+                </div>
+
+                <div class="main_card" data-category="pizza">
+                  <img src="/img_shop/main_card_img6.png" alt="food_card_img" />
+                  <p>Pizza</p>
+                  <span class="actual_price">$43.00</span>
+                </div>
+
+                <div class="main_card" data-category="butter">
+                  <img src="/img_shop/main_card_img7.png" alt="food_card_img" />
+                  <p>Cheese Butter</p>
+                  <span class="actual_price">$10.00</span>
+                </div>
+
+                <div class="main_card" data-category="sandwich">
+                  <img src="/img_shop/main_card_img8.png" alt="food_card_img" />
+                  <p>Sandwiches</p>
+                  <span class="actual_price">$25.00</span>
+                </div>
+
+                <div class="main_card" data-category="chicken">
+                  <img src="/img_shop/main_card_img9.png" alt="food_card_img" />
+                  <p>Chicken Chup</p>
+                  <span class="actual_price">$12.00</span>
+                </div>
+
+                <div class="main_card" data-category="burger">
+                  <img src="/img_shop/main_card_img10.png" alt="food_card_img" />
+                  <p>Country Burger</p>
+                  <span class="actual_price">$45.00</span>
+                </div>
+
+                <div class="main_card" data-category="drink">
+                  <img src="/img_shop/main_card_img11.png" alt="food_card_img" />
+                  <p>Drink</p>
+                  <span class="actual_price">$23.00</span>
+                  <span class="old_price">$45.00</span>
+                </div>
+
+                <div class="main_card" data-category="pizza">
+                  <img src="/img_shop/main_card_img12.png" alt="food_card_img" />
+                  <p>Pizza</p>
+                  <span class="actual_price">$43.00</span>
+                </div>
+
+                <div class="main_card" data-category="butter">
+                  <img src="/img_shop/main_card_img13.png" alt="food_card_img" />
+                  <p>Cheese Butter</p>
+                  <span class="actual_price">$10.00</span>
+                </div>
+
+                <div class="main_card" data-category="sandwich">
+                  <img src="/img_shop/main_card_img14.png" alt="food_card_img" />
+                  <p>Sandwiches</p>
+                  <span class="actual_price">$25.00</span>
+                </div>
+
+                <div class="main_card" data-category="chicken">
+                  <img src="/img_shop/main_card_img15.png" alt="food_card_img" />
+                  <p>Chicken Chup</p>
+                  <span class="actual_price">$12.00</span>
+                </div>
+
+                <div class="counter_page">
+                    <div class="counter">
+                      <span class = 'previous_page'><a href="#">&lt;&lt;</a></span>
+                    </div>
+
+                    <div class="counter active_page">
+                      <span><a href="#">1</a></span>
+                    </div>
+
+                    <div class="counter">
+                      <span><a href="#">2</a></span>
+                    </div>
+
+                    <div class="counter">
+                      <span><a href="#">3</a></span>
+                    </div>
+
+                    <div class="counter">
+                      <span class = 'next_page'><a href="#">&gt;&gt;</a></span>
+                    </div>
+                  </div>
+
+              </div>
+
+              <div class="main_additional_sort">
+                <div class="main_info_additional_sort_info">
+                  <div class="main_sort_search">
+                    <div class="support_input_and_btn">
+                      <form class="support_form_input_and_btn" action="">
+                        <input
+                          class="support_input"
+                          type="text"
+                          placeholder="Search Product"
+                        />
+                        <div class="main_searc_search">
+                          <button class="support_btn">
+                            <img src="/img_shop/MagnifyingGlass.png" alt="img_serach" />
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ul_category">
+                  <div class="ul_checkboxes">
+                    <h3>Category</h3>
+                    <ul>
+                      <li><input type="checkbox" value="sandwich" id="sandwich"/>Sandwiches</li>
+                      <li><input type="checkbox" value="burger" id="burger"/>Burger</li>
+                      <li><input type="checkbox" value="chicken" id="chicken"/>Chicken Chup</li>
+                      <li><input type="checkbox" value="drink" id="drink"/>Drink</li>
+                      <li><input type="checkbox" value="pizza" id="pizza"/>Pizza</li>
+                      <li><input type="checkbox" />Thi</li>
+                      <li><input type="checkbox" />Non Veg</li>
+                      <li><input type="checkbox" />Uncategorized</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="main_sort_banner">
+                  <a href="#"><img src="/img_shop/Banner.png" alt="banner" /></a>
+                </div>
+
+                <div class="filter_price">
+                  <h3>Filter By Price</h3>
+                  <div class="price_slider">
+                    <div class="slider_container">
+                      <div class="slider-track">
+                        <div class="slider-range"></div>
+                      </div>
+                      <input
+                        type="range"
+                        min="0"
+                        max="8000"
+                        value="0"
+                        class="slider min-slider"
+                      />
+                      <input
+                        type="range"
+                        min="0"
+                        max="8000"
+                        value="8000"
+                        class="slider max-slider"
+                      />
+                    </div>
+                    <div class="price_display">
+                      <span>From $0 to $8000</span>
+                      <button class="filter_btn">Filter</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product_ul_cards">
+                  <div class="product_title">
+                    <h3>Latest Products</h3>
+                  </div>
+                  <div class="product_card">
+                    <div class="product_img">
+                      <img src="/img_shop/product_assorted.png" alt="food_card" />
+                    </div>
+                    <div class="product_card_info">
+                      <h3>Pizza</h3>
+                      <img src="/img_shop/stars.png" alt="img_star" />
+                      <span>$35.00</span>
+                    </div>
+                  </div>
+
+                  <div class="product_card">
+                    <div class="product_img">
+                      <img src="/img_shop/product_assorted.png" alt="food_card" />
+                    </div>
+                    <div class="product_card_info">
+                      <h3>Pizza</h3>
+                      <img src="/img_shop/stars.png" alt="img_star" />
+                      <span>$35.00</span>
+                    </div>
+                  </div>
+
+                  <div class="product_card">
+                    <div class="product_img">
+                      <img src="/img_shop/product_assorted.png" alt="food_card" />
+                    </div>
+                    <div class="product_card_info">
+                      <h3>Pizza</h3>
+                      <img src="/img_shop/stars.png" alt="img_star" />
+                      <span>$35.00</span>
+                    </div>
+                  </div>
+
+                  <div class="product_card">
+                    <div class="product_img">
+                      <img src="/img_shop/product_assorted.png" alt="food_card" />
+                    </div>
+                    <div class="product_card_info">
+                      <h3>Pizza</h3>
+                      <img src="/img_shop/stars.png" alt="img_star" />
+                      <span>$35.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product_tags">
+                  <div class="product_tags_title">
+                    <h3>Product Tags</h3>
+                  </div>
+                  <div class="listing_proudct">
+                    <a href="#">Services</a>
+                    <a href="#">Our Menu</a>
+                    <a href="#">Pizza</a>
+                    <a href="#">Cupcake</a>
+                    <a href="#">Burger</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Our Shop</a>
+                    <a href="#">Tandoori Chicken</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="blog_support">
+          <div class="contianer_sup">
+            <div class="support_text">
+              <h2>
+                <span class="corp_color">St</span>ill You Need Our Support ?
+              </h2>
+              <p>
+                Don’t wait make a smart & logical quote here. Its pretty easy.
+              </p>
+            </div>
+            <div class="footer_input_and_btn">
+              <form class="support_form_input_and_btn" action="">
+                <input
+                  class="footer_text"
+                  type="text"
+                  placeholder="Enter Your Email"
+                />
+                <button class="footer_btn">Subscribe Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class = 'footer'>
+        <div class="container">
+          <div class="main_container_footer">
+            <div class="firs_section_footer">
+              <div class="first_about_us_footer">
+                <div class="about_us_text">
+                  <h3 class="title_footer">About Us.</h3>
+                  <p>
+                    orporate clients and leisure travelers has been relying on
+                    Groundlink for dependab safe, and professional chauffeured
+                    car service in major cities across World.
+                  </p>
+                </div>
+
+                <div class="about_us_img_and_text">
+                  <div class="about_us_img">
+                    <img src="/images/footer_img/Watch.png" alt="img_watch" />
+                  </div>
+                  <div class="about_us_img_text">
+                    <h4 class="sub_title_footer">Opening Houres</h4>
+                    <p>Mon - Sat(8.00 - 6.00)</p>
+                    <p>Sunday - Closed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="first_links">
+              <h3 class="title_footer">Useful Links</h3>
+              <a href="#">About</a>
+              <a href="#">News</a>
+              <a href="#">Partners</a>
+              <a href="#">Team</a>
+              <a href="#">Menu</a>
+              <a href="#">Contacts</a>
+            </div>
+
+            <div class="second_section_footer">
+              <div class="second_help_footer">
+                <h3 class="title_footer">Help?</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Term & conditions</a>
+                <a href="#">Reporting</a>
+                <a href="#">Documentation</a>
+                <a href="#">Support Policy</a>
+                <a href="#">Privacy</a>
+              </div>
+            </div>
+
+            <div class="second_recent_footer">
+              <h3 class="title_footer">Recent Post</h3>
+              <div class="recent_cards_footer">
+                <div class="recent_card_footer">
+                  <div class="recenter_card_img">
+                    <img src="/img_shop/footer_img.png" alt="food_card" />
+                  </div>
+                  <div class="recent_card_text">
+                    <p class="subtitle_recent">Is fastfood good foryour body?</p>
+                    <h3>February 28,2022</h3>
+                  </div>
+                </div>
+
+                <div class="recent_card_footer_all">
+                  <div class="recent_card_footer">
+                    <div class="recenter_card_img">
+                      <img src="/img_shop/footer_img.png" alt="food_card" />
+                    </div>
+                    <div class="recent_card_text">
+                      <p class="subtitle_recent">Change your food habitWith organic food</p>
+                      <h3>February 28,2022</h3>
+                    </div>
+                  </div>
+
+                  <div class="recent_card_footer">
+                    <div class="recenter_card_img">
+                      <img src="/img_shop/footer_img.png" alt="food_card" />
+                    </div>
+                    <div class="recent_card_text">
+                      <p class="subtitle_recent">Do you like fastfood foryour life?</p>
+                      <h3>February 28,2022</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="main_footer">
+          <div class="container">
+            <div class="footer_content">
+              <div class="footer_main_text">
+                <h3>Copyright © 2022 by Ayeman. All Rights Reserved.</h3>
+              </div>
+              <div class="footer_main_icons">
+                <a href="#"><img src="/img_shop/icon1.png" alt="social_icon" /></a>
+                <a href="#"><img src="/img_shop/icon2.png" alt="social_icon" /></a>
+                <a href="#"><img src="/img_shop/icon3.png" alt="social_icon" /></a>
+                <a href="#"><img src="/img_shop/icon4.png" alt="social_icon" /></a>
+                <a href="#"><img src="/img_shop/icon5.png" alt="social_icon" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
